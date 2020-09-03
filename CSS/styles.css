@@ -1,0 +1,443 @@
+/* global */
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: #EAF6F6;
+    font-family: 'Sacramento';
+    font-size: 5rem;
+    /* 1 rem = 16px */
+    text-shadow: 2px 2px #222831;
+}
+
+h1:hover {
+    color: black;
+    text-shadow: 2px 2px red;
+}
+
+h3 {
+    font-family: 'Acme';
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5%
+}
+
+body {
+    background-color: #061316;
+    background-image: linear-gradient(45deg, black 30%, #cad0cf 100%);
+}
+
+
+p {
+    font-family: 'Montserrat';
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: #222831;
+
+}
+
+/*Navigation bar*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #22283180;
+}
+
+.nav-item {
+    padding: 0px 5px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.finLogo {
+    width: 25%;
+}
+
+
+/*Introduction*/
+.Introduction {
+    padding: 7% 0%;
+}
+
+#intro-container {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+    padding-left: 15%;
+}
+
+#gradPic {
+    border-radius: 50%;
+}
+
+#centerGradPic {
+    text-align: center;
+    margin: 0;
+}
+#introText{
+	font-family: "Montserrat";
+	color: #eaf6f6;
+	/*text-shadow: 1px 0.5px cyan;*/
+}
+
+
+/* Education */
+
+.Education {
+    padding:0;
+}
+
+#educ-container {
+    padding: 3% 15%;
+    background-color: #cad0cf40;
+}
+
+.centerEduc {
+    text-align: center;
+    margin: 0;
+}
+
+.p-educ {
+    color: #272727;
+    text-align: center;
+    line-height: 1.3;
+    margin-top: 4%;
+}
+
+#uscLogo {
+    width: 60%;
+}
+
+#usctext {
+    font-size: 1.5rem;
+}
+
+#usctext:hover {
+    color: black;
+}
+
+#ece {
+    width: 60%;
+}
+
+#bsece {
+    font-size: 1.5rem;
+}
+
+#bsece:hover {
+    color: black;
+}
+
+/* Experience */
+.Experience {
+    padding:0;
+}
+
+#exp-container {
+    padding: 3% 15%;
+}
+
+.whiteUL {
+    padding-top: 3%;
+    font-family: 'Montserrat';
+    color: #EAf6f6;
+    text-align: justify;
+}
+
+.expPic {
+    text-align: center;
+    margin: 0;
+}
+
+#mciaa {
+    width: 50%;
+}
+
+.mciaaText {
+    padding-top: 5%;
+}
+
+.expNoMargin {
+    margin: 0;
+    color: #EAf6f6;
+
+}
+
+.bbwText {
+    padding-top: 5%;
+}
+
+#bbw {
+    width: 80%;
+}
+
+.bbwAlign {
+    text-align: center;
+    margin: 0;
+    padding-top: 2%;
+}
+
+/* Skills */
+.Skills {
+    padding-top: 7%;
+    padding-bottom: 3%;
+}
+
+#skill-container {
+    background-color: #cad0cf20;
+    padding: 3% 15%;
+}
+
+.skillText,
+#mySkills {
+    color: #eaf6f6;
+}
+
+#firstSkill,
+.skill {
+    text-align: center;
+}
+
+.needPadding {
+    padding: 10% 30%;
+}
+
+.grayUL {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 1.2;
+    color: gray;
+    text-align: left;
+    padding:
+}
+
+.webDev {
+    width: 80%;
+}
+
+.c,
+.cpp,
+.php {
+    width: 30%;
+}
+
+.winword,
+.excel,
+.powerpnt {
+    width: 30%;
+    padding: 10% 5%;
+}
+
+/* Portfolio */
+#port-container {
+    padding: 0 5%;
+    padding-bottom:3%;
+}
+
+.port-text {
+    color: #EAF6F6;
+    font-size: 1.5rem;
+}
+
+.port-image {
+    width: 50%;
+}
+
+.carousel-item {
+    padding: 0% 15%;
+    text-align: center;
+}
+
+
+
+
+
+/* Contact */
+#contact-container {
+    background-color: #cad0cf20;
+    padding: 0% 15%;
+}
+.cont-info {
+    font-size: 1rem;
+    color: #eaf6f6;
+}
+
+.contact-box {
+    padding: 2.5%;
+}
+
+.icon {
+    color: #eaf6f690;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#contact-container {
+    text-align: center;
+}
+
+#contactDetails {
+    color: #eaf6f6;
+    padding-top: 3%;
+}
+
+/*footer*/
+.footer{
+	padding-top:5%;
+}
+
+a{
+    color: cyan;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.fter {
+    text-align: center;
+}
+
+.foot {
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.foot:hover {
+    color: yellow;
+}
+
+@media (max-width: 1028px) {
+
+    /*introduction*/
+    #gradPic{
+    	width: 60%;
+    }
+
+    #myName {
+        padding-top: 10%;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    #introText {
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    /*Education*/
+    #educText {
+        padding-bottom: 10%;
+    }
+
+    #uscLogo {
+        width: 50%;
+    }
+
+    #usctext {
+        font-size: 1.5rem;
+        padding-bottom: 15%;
+    }
+
+    #ece {
+        width: 50%;
+    }
+
+    /*Experience*/
+    #expText {
+        padding-top: 0;
+        padding-bottom: 15%;
+    }
+
+    #expi {
+        padding-top: 0%;
+    }
+
+    #mciaa {
+        width: 50%;
+        padding-bottom: 15%;
+    }
+
+    .expNoMargin {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    #bbw {
+        position: relative;
+    }
+
+    .mciaaText{
+    	font-size:1rem;
+    }
+
+    .mciaaList{
+    	padding-bottom: 10%;
+    }
+
+    /*skills*/
+    #mySkills {
+        padding-bottom: 10%;
+    }
+
+    #firstSkill {
+        font-size: 0.8rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #secondSkill {
+        padding-top: 15%;
+        font-size: 1rem;
+
+    }
+
+    /*Portfolio*/
+
+    #portfolioTitle {
+        padding: 0;
+        font-size: 2rem;
+    }
+
+    .port-text {
+        font-size: 1rem;
+    }
+
+    .carousel-item {
+        padding: 0% 15%;
+    }
+
+    /*contact*/
+
+    #contactDetails {
+        font-size: 1.5rem;
+        padding: 5% 0;
+    }
+
+    #contact-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .cont {
+        font-size: 1.5rem;
+    }
+
+
+}
