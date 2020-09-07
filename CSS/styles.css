@@ -24,8 +24,15 @@ h3 {
 }
 
 body {
-    background-color: #061316;
-    background-image: linear-gradient(45deg, black 30%, #cad0cf 100%);
+    /*background-color: #061316;
+    background-image: linear-gradient(45deg, black 30%, #cad0cf 100%);*/
+
+    background-image: url(../img/lines.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100%;
 }
 
 
@@ -40,8 +47,26 @@ p {
 
 /*Navigation bar*/
 
+.dom{
+    text-align: center;
+    color: #ff4c68;
+}
+
+.suico{
+    padding:0;
+    margin:0;
+}
+
+
+.navbar-brand{
+    margin-top:2px;
+    padding: 0;
+    margin-bottom: 2px;
+
+}
+
 .navbar-dark .navbar-nav .nav-link {
-    color: #22283180;
+    color: white;
 }
 
 .nav-item {
@@ -56,6 +81,7 @@ p {
 .navbar {
     margin: 0;
     padding: 0;
+    background-color: #78787880;
 }
 
 .finLogo {
@@ -69,19 +95,21 @@ p {
 }
 
 #intro-container {
-    padding-top: 3%;
+    padding-top: 8%;
     padding-bottom: 3%;
     padding-right: 10%;
     padding-left: 15%;
 }
 
 #gradPic {
-    border-radius: 50%;
+    border-radius: 100%;
+    box-shadow: 5px 10px 8px  #888888;
 }
 
 #centerGradPic {
     text-align: center;
     margin: 0;
+    padding:2%;
 }
 #introText{
 	font-family: "Montserrat";
@@ -98,7 +126,7 @@ p {
 
 #educ-container {
     padding: 3% 15%;
-    background-color: #cad0cf40;
+    background-color: #cad0cf80;
 }
 
 .centerEduc {
@@ -111,14 +139,18 @@ p {
     text-align: center;
     line-height: 1.3;
     margin-top: 4%;
+    font-weight: bold;
 }
 
 #uscLogo {
     width: 60%;
+    border-radius: 100%;
+    box-shadow: 5px 10px 8px  #000000;
 }
 
 #usctext {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 #usctext:hover {
@@ -193,7 +225,7 @@ p {
 }
 
 #skill-container {
-    background-color: #cad0cf20;
+    background-color: #cad0cf80;
     padding: 3% 15%;
 }
 
@@ -249,7 +281,7 @@ p {
 }
 
 .port-image {
-    width: 50%;
+    width: 100%;
 }
 
 .carousel-item {
@@ -263,10 +295,11 @@ p {
 
 /* Contact */
 #contact-container {
-    background-color: #cad0cf20;
+    background-color: #cad0cf80;
     padding: 0% 15%;
 }
 .cont-info {
+    font-family: "Montserrat";
     font-size: 1rem;
     color: #eaf6f6;
 }
@@ -323,7 +356,7 @@ a:hover {
     color: yellow;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1024px) {
 
     /*introduction*/
     #gradPic{
@@ -333,7 +366,11 @@ a:hover {
     #myName {
         padding-top: 10%;
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
+    }
+
+    #intro-container{
+        padding-top: 30%;
     }
 
     #introText {
