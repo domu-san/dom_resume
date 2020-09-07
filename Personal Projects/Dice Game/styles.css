@@ -125,7 +125,7 @@ h6{
     background-color: #ff4b5c80;
 }
 
-@media (max-width: 425px){
+@media (max-width: 1024px){
     
     h1{
         font-size: 2.5rem;
