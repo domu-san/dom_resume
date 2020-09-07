@@ -33,7 +33,7 @@ h6{
 
     display: flex;
     justify-content: center;
-    padding-top: 1.5%;
+    padding-top: 1%;
 }
 
 .resultPanel {
@@ -53,7 +53,7 @@ h6{
 .diceOne,
 .diceTwo {
     text-align: center;
-    padding: 2% 8%;
+    padding: 0% 8%;
     background-color: transparent;
 
 }
@@ -61,8 +61,8 @@ h6{
 
 #dice1,
 #dice2 {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     text-align: center;
     border-radius: 30px;
 }
@@ -92,12 +92,29 @@ h6{
     font-family: "Montserrat";
 }
 
+/*#enterOne,
+#enterTwo{
+    padding: 12px 50px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    outline: none;
+    font-family: "Montserrat";
+    cursor: pointer;
+}
+
+#enterOne:hover,
+#enterTwo:hover{
+    background-color: #ff4b5c80;
+}
+*/
+
 .btnForm {
     padding: 12px 50px;
     border-radius: 30px;
     background-color: #ffffff;
     outline: none;
     font-family: "Montserrat";
+    cursor: pointer;
 }
 
 .parentBtnDiv {
@@ -110,22 +127,25 @@ h6{
 }
 
 .rstBtnDiv{
-  padding-left:2%;
+    text-align: right;
+    padding-right: 5%;
 }
 
 #rst{
-    padding: 12px 50px;
+    padding: 15px 15px;
     border-radius: 30px;
     background-color: #ffffff80;
     outline: none;
     font-family: "Montserrat";
+    cursor: pointer;
 }
 
 #rst:hover{
     background-color: #ff4b5c80;
 }
 
-@media (max-width: 1024px){
+
+@media (max-width: 425px){
     
     h1{
         font-size: 2.5rem;
