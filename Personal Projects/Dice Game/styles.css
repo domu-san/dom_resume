@@ -124,3 +124,30 @@ h6{
 #rst:hover{
     background-color: #ff4b5c80;
 }
+
+@media (max-width: 425px){
+    
+    h1{
+        font-size: 2.5rem;
+    }
+
+    #dice1,
+    #dice2 {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 30px;
+    }
+
+    .nameForm {
+    padding: 6px 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-bottom: 5px solid #ff4b5c;
+    color: white;
+    text-align: center;
+    }
+
+}
