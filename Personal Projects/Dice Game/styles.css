@@ -144,7 +144,9 @@ h6{
     background-color: #ff4b5c80;
 }
 
-
+.ftrDiv{
+    padding-top:4%;
+}
 @media (max-width: 425px){
     
     h1{
