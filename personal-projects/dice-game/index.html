@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/dice.ico">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b378ff3847.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <div class="scoreBoard fadeOut">
+        <div class="wew">
+            <div class="pOneScore">
+                <h3>Player Score</h3>
+                <p>0</p>
+            </div>
+            <div class="pTwoScore">
+                <h3>Player Score</h3>
+                <p>0</p>
+            </div>
+        </div>
+    </div>
+    <div class="startItems">
+        <h1> Settle your disputes through these dice </h1>
+        <p> Choose series  </p>
+        <div class="choice1">
+            <button class="btnChoice" id="bestOfThree">Best of 3</button>
+        </div>
+        <div class="choice2">
+            <button class="btnChoice" id="bestOfFive">Best of 5</button>
+        </div>
+        <div class="choice3">
+            <button class="btnChoice" id="bestOfSeven">Best of 7</button>
+        </div>
+    </div>
+    <main class="mainPage fadeOut">
+        <div class="resultPanelParent">
+            <div class="resultPanel">
+                <h1 id="hdr"> SETTLE YOUR DISPUTES HERE! </h1>
+            </div>
+        </div>
+        <div class="dicePanelParent">
+            <div class="diceOne">
+                <img id="dice1" src="img/p1_1.png">
+                <br>
+                <form class="form">
+                    <input class="nameForm" id="nameOne" type="text" value="" placeholder="Enter name">
+                    <br><br>
+                    <!-- <button id="enterOne" type="button">ENTER</button> -->
+                </form>
+            </div>
+            <div class="diceTwo">
+                <img id="dice2" src="img/p2_1.png">
+                <br>
+                <form class="form">
+                    <input class="nameForm" id="nameTwo" type="text" value="" placeholder="Enter name">
+                    <br><br>
+                    <!-- <button id="enterTwo" type="button">ENTER</button> -->
+                </form>
+            </div>
+        </div>
+        <div class="parentBtnDiv">
+            <div clas="btnDiv">
+                <button id="btn" class="btnForm" type="button">GO!</button>
+            </div>
+        </div>
+        <div class="rstBtnDiv">
+            <button id="rst" type="button"><i class="fas fa-redo"></i></button>
+        </div>
+        <div class="ftrDiv">
+            <footer>
+                <h6> (c) Dominic Suico </h6>
+            </footer>
+        </div>
+    </main>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
