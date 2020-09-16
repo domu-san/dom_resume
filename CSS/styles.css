@@ -281,7 +281,7 @@ p {
 }
 
 .port-image {
-    width: 100%;
+    width: 80%;
 }
 
 .carousel-item {
@@ -433,7 +433,7 @@ a:hover {
     }
 
     #mciaa {
-        width: 50%;
+        width: 45%;
         padding-bottom: 15%;
     }
 
@@ -443,7 +443,7 @@ a:hover {
     }
 
     #bbw {
-        position: relative;
+        display: none;
     }
 
     .mciaaText{
@@ -482,8 +482,12 @@ a:hover {
         font-size: 1rem;
     }
 
+    .port-image{
+        width: 80%;
+    }
+
     .carousel-item {
-        padding: 0% 15%;
+        padding: 2% 20%;
     }
 
     /*contact*/
@@ -500,6 +504,9 @@ a:hover {
 
     .cont {
         font-size: 1.5rem;
+    }
+    .cont-info{
+        padding: 0 15%;
     }
 
 

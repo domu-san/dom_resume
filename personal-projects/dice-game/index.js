@@ -18,6 +18,7 @@ document.getElementById("bestOfThree").addEventListener("click", function() {
     selectionScreen.classList.add("fadeOut");
     mainPage.classList.add("fadeIn");
     document.getElementById("btn").addEventListener("click", ()=>{
+    
     var nameOne = document.getElementById("nameOne").value;
     var randNum1 = Math.floor((Math.random() * 6) + 1);
     var diceImageP1 = "p1_" + randNum1 + ".png";

@@ -1,0 +1,106 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 2.5rem;
+	letter-spacing: 8px;
+	line-height: 1.5;
+	color: white;
+}
+
+body{
+	background-color: #1d2d50;
+}
+
+/*header part*/
+
+.container{
+	display: flex;
+	justify-content: center;
+	padding: 5vh 15%;
+	text-align: center;
+}
+
+.square-container{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	padding: 1.5vh 450px;
+}
+
+.boxOne,
+.boxTwo,
+.boxThree,
+.boxFour{
+	width: 200px;
+	height: 200px;
+	border-style:solid;
+	border-color: white;
+	border-radius: 10px;
+}
+
+.boxOne{
+	background-color: #ffc93c;
+}
+
+.boxTwo{
+	background-color: #07689f;
+}
+
+.boxThree{
+	background-color: #eb8f8f;
+}
+.boxFour{
+	background-color: #d6e0f0;
+}
+
+.pressed{
+	box-shadow: 0 0 20px black;
+	background-color: gray;
+}
+
+.btn{
+	cursor: pointer;
+}
+
+.game-over{
+	background-color: red;
+	opacity: 0.85;
+}
+
+@media only screen and (max-width: 768px ){
+
+	h1{
+		font-size: 1.5rem;
+	}
+
+	.boxOne,
+	.boxTwo,
+	.boxThree,
+	.boxFour{
+		width: 150px;
+		height: 150px;
+		border-style:solid;
+		border-color: white;
+		border-radius: 10px;
+	}
+
+	.square-container{
+		padding: 5vh 5vw;
+	}
+
+	#two, #four{
+		padding-left: 20%;
+	}
+
+}
+
+
+
+
+
+
