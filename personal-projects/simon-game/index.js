@@ -18,7 +18,7 @@ $(document).click(function(){
 	if(!startGame){
 		startGame = true;
 		$('h1').text("level " + level);
-		gameSequence();		
+		setTimeout(gameSequence, 200);		
 	}
 });
 
