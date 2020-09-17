@@ -229,10 +229,14 @@ h6{
 
     #dice1,
     #dice2 {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 20px;
+    }
+
+    .dicePanelParent{
+        padding-top: 5%;
     }
 
     .nameForm {
