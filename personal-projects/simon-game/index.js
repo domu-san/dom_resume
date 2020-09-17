@@ -18,7 +18,7 @@ $(document).click(function(){
 	if(!startGame){
 		startGame = true;
 		$('h1').text("level " + level);
-		setTimeout(gameSequence, 200);		
+		gameSequence();		
 	}
 });
 
@@ -43,13 +43,16 @@ function checkAnswer(currentLevel){
 	}else{
 		playSound("wrong");
 		$("body").addClass("game-over");
-		$("h1").text("Game Over, Press Any Key to restart");
+		$('h1').text("Game Over, Press Any Key to restart");
 
 		setTimeout(function(){
 			$("body").removeClass("game-over");
 		}, 200);
 		
-		startAgain();
+		setTimeout(function(){
+			startAgain();
+		},500);
+		
 	}
 
 }

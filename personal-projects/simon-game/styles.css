@@ -78,6 +78,14 @@ body{
 		font-size: 1.5rem;
 	}
 
+	body{
+		overflow: hidden;
+	}
+
+	.container{
+		padding: 5% 5%;
+	}
+
 	.boxOne,
 	.boxTwo,
 	.boxThree,
