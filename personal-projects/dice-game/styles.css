@@ -12,7 +12,8 @@ body {
     background-size: cover;
     width:100%;
     height: 100vh;
-    background-color: #52575d;    
+    background-color: #52575d;  
+    overflow: hidden;
 }
 
 main{
