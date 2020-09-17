@@ -260,6 +260,11 @@ h6{
         left: 20px;
         right: 20px;
     }
+	
+     body{
+     	overflow: hidden;
+    }
+
 
 
 }
