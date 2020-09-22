@@ -1,4 +1,4 @@
-# dom_resume
-My online resume and portfolio
+# My Online Resume
+My online resume with some of my personal projects included
 
 
