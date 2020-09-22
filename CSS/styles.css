@@ -11,22 +11,18 @@ h1 {
     text-shadow: 2px 2px #222831;
 }
 
-h1:hover {
-    color: black;
-    text-shadow: 2px 2px red;
-}
-
 h3 {
-    font-family: 'Acme';
+    font-family: Verdana;
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 5%
+    line-height: 1.5;
 }
 
-body {
-    /*background-color: #061316;
-    background-image: linear-gradient(45deg, black 30%, #cad0cf 100%);*/
 
+body {
+    background-color: #061316;
+    background-image: linear-gradient(45deg, black 30%, #cad0cf 100%);
     background-image: url(../img/lines.jpg);
     background-position: center;
     background-size: cover;
@@ -81,7 +77,14 @@ p {
 .navbar {
     margin: 0;
     padding: 0;
-    background-color: #78787880;
+    /*background-color: #78787880;*/
+    background-color: transparent;
+    transition: 0.5s ease;
+}
+
+.navbar-add{
+    background-color: black;
+    transition: 0.5s ease;
 }
 
 .finLogo {
@@ -114,6 +117,8 @@ p {
 #introText{
 	font-family: "Montserrat";
 	color: #eaf6f6;
+    text-align: justify;
+    font-size: 1rem;
 	/*text-shadow: 1px 0.5px cyan;*/
 }
 
@@ -145,15 +150,12 @@ p {
 #uscLogo {
     width: 60%;
     border-radius: 100%;
-    box-shadow: 5px 10px 8px  #000000;
+    background-color: white;
 }
 
 #usctext {
     font-size: 1.5rem;
     font-weight: bold;
-}
-
-#usctext:hover {
     color: black;
 }
 
@@ -163,9 +165,6 @@ p {
 
 #bsece {
     font-size: 1.5rem;
-}
-
-#bsece:hover {
     color: black;
 }
 
@@ -229,9 +228,13 @@ p {
     padding: 3% 15%;
 }
 
+#mySkills{
+    padding-bottom: 2.5%;
+}
 .skillText,
 #mySkills {
-    color: #eaf6f6;
+    color: black;
+    
 }
 
 #firstSkill,
@@ -301,7 +304,8 @@ p {
 .cont-info {
     font-family: "Montserrat";
     font-size: 1rem;
-    color: #eaf6f6;
+    color: black;
+    font-weight: bold;
 }
 
 .contact-box {
@@ -309,12 +313,12 @@ p {
 }
 
 .icon {
-    color: #eaf6f690;
+    color: black;
     margin-bottom: 1rem;
 }
 
 .icon:hover {
-    color: #ff4c68;
+    color: #eaf6f690;
 }
 
 #contact-container {
@@ -322,7 +326,7 @@ p {
 }
 
 #contactDetails {
-    color: #eaf6f6;
+    color: black;
     padding-top: 3%;
 }
 
@@ -368,6 +372,10 @@ a:hover {
     color: #EAF6F6;
 }
 
+.a-none{
+    color: black;
+}
+
 .fter {
     text-align: center;
 }
@@ -378,9 +386,6 @@ a:hover {
     padding-bottom: 5%;
 }
 
-.foot:hover {
-    color: yellow;
-}
 
 @media (max-width: 1024px) {
 
@@ -460,7 +465,7 @@ a:hover {
     }
 
     #firstSkill {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding-left: 0;
         padding-right: 0;
     }
@@ -482,7 +487,7 @@ a:hover {
         font-size: 1rem;
     }
 
-    .port-image{
+    .port-image img{
         width: 80%;
     }
 
