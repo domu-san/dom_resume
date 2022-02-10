@@ -1,5 +1,5 @@
-# My Online Resume
-My online resume with some of my personal projects included
+# Web Dev Practice
+Just practicing web dev with some of my personal projects included
 
 //Student Database Web Application
 https://bit.ly/deeeDB //HTML/CSS/Bootstrap/jQuery/PHP/MySQL
